@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}  
+/*------------------  header ----------------*/
+section{
+    background-color:gray;
+    width:100%;
+    display: flex;
+    z-index: 999;
+    padding: 10px 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav{
+    border: none;
+    color: black;
+    padding: 10px;
+} 
+#nav:hover{
+    border-radius: 50%;
+    background-color: rgb(9, 9, 9);
+    color: rgb(255, 255, 255);
+}
+p{
+    color:black;
+    font-weight:400px;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+h1{
+    font-weight:700px;
+    font-size: 2.7em;
+}  
+/*-----------------menu------------------- */
+.moamen{
+    /*--------------- background-------------- */
+    padding: 50px 100px;
+    width: 100%;
+    align-items: center;
+}
+/* -------------------الايه --------------------*/
+.moamen h2{
+    color:#121212;  
+    font-size: 2em;
+    font-weight: 1000;
+    text-align: center;
+    padding: 0px;
+}
+.moamen a{
+    color: #f0f0f0;
+    margin: 2px;
+    text-decoration:none;
+    position: relative;
+    top: 50px;
+    background: black;
+    padding:6px 30px ;
+    border-radius: 20px;
+    display: inline-block;
+    width: 300px;
+}
+ul{
+    text-align: center;
+}
+ul li{
+    margin: 40px 0;
+    font-size: 2em;
+    font-weight: 700;
+    list-style: none;
+}
+ul li a:hover{
+    transform: scale(1.5);
+}
+
+/* -------------اذكار الصباح--------------------- */
+.ragab{
+ /*--------------- background-------------- */
+ width: 100%;
+ min-height: 100vh;
+ text-align: center;
+}
+.ragab p{
+border: 2px solid rgb(13, 13, 13);
+background-color: white;
+border-radius: 10px;
+margin-top: 10px;
+width: 500px;
+margin-left: 35%;
+margin-top: 50px;
+font-size: 30px;
+}
+
+#nav{
+    font-size: xx-large;
+    background-color: gray;
+}
+#btnone{
+    border: none;
+    font-size: 16px;
+    color: red;
+}
+#btntwo{
+    border: none;
+    font-size: 16px;
+    color: red;
+}
+#btnthree{
+    border: none;
+    font-size: 16px;
+    color: red;
+}
+#btnfour{
+    border: none;
+    font-size: 16px;
+    color: red;
+}
+#btnfive{
+    border: none;
+    font-size: 16px;
+    color: red;
+}
+#btnsix{
+    border: none;
+    font-size: 16px;
+    color: red;
+}
+#btnseven{
+    border: none;
+    font-size: 16px;
+    color: red;
+}
+#btneight{
+    border: none;
+    font-size: 16px;
+    color: red;
+}
+#btnnine{
+    border: none;
+    font-size: 16px;
+    color: red;
+}
+#11{
+    
+    font-size: 16px;
+    
+}
+#12{
+    font-size: 16px;
+  
+}
+#13{
+
+    font-size: 16px;
+
+}
+
+#buttoncontainer{
+    height: fit-content;
+    width: 100px;
+    background-color: #f0f0f0;
+    margin-left: 48%;
+    border: solid 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#resetbutton{
+    padding-right: 20px;
+    height: fit-content;
+    width: 100px;
+    background-color: #f0f0f0;
+    margin-left: 48%;
+    border: solid 2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    
+}
+#contdiv{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#contul{
+    margin-left: 20px;
+    margin-right: 150px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(54, 54, 233);
+}
+#contul li{
+    background-color: white;
+    padding: 8px;
+}
+#contuldata{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+#homediv{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#next{
+    width:200px;
+    height:40px;
+     background-Color:gray;
+     color:white;
+     border-Radius:50px;
+     font-size: larger;
+     margin-right: 20px;
+     margin-bottom: 40px;
+}
+#next:hover{
+    background-color: #0a0101;
+    color:white;
+    width: 300px;
+    height: 50px;
+    font-size: xx-large;
+}
+#nextlink{
+    text-decoration: none;
+    color: white;
+}
+#previous{
+    width:200px;
+    height:40px;
+     background-Color:gray;
+     color:white;
+     border-Radius:50px;
+     font-size: larger;
+     margin-left: 20px;
+     margin-bottom: 40px;
+}
+#previous:hover{
+    background-color: #0a0101;
+    color:white;
+    width: 300px;
+    height: 50px;
+    font-size: xx-large;
+}
+#buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
